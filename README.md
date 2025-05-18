@@ -26,7 +26,7 @@ The objective is to identify inactive accounts (no transactions in the past year
 The Objective is to estimate Customer Lifetime Value (CLV) based on account tenure and transaction volume. The process I followed is to:
 - Create CustomerTransactions CTE: It calculates total transactions, inflow, and signup date per customer.
 - Create AccountTenure CTE: It calculates customer tenure in months.
-- Create Main query which calculates estimated_clv using the provided formula. Formula incorporates transaction frequency, average transaction value, and a profit margin.
+- Create Main query which calculates estimated_clv using the provided formula - (CLV = (total_transactions / tenure) * 12 * avg_profit_per_transaction). Formula incorporates transaction frequency, average transaction value, and a profit margin.
 - Filter out customers with no transactions.
 - Order results by CLV in descending order.
 ## Challenge
