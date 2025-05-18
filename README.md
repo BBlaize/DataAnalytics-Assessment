@@ -1,5 +1,5 @@
 # DataAnalytics-Assessment
-## Per-Question Explanations
+## Per-Question Explanation
 ### 1.  High-Value Customers with Multiple Products
 The objective is to dentify customers with both funded savings and investment plans, ordered by total deposits.
 The process I followed is to:
